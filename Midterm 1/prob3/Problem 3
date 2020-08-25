@@ -1,0 +1,11 @@
+Problem 3
+
+The algorithm takes a String input and converts each character to its ASCII value and returns the minimum ASCII value.
+
+First the algorithm will check to see if the input String is empty. If so, return -1 to indicate an error. 
+
+To get the ASCII value of the character in the String, charAt(index_of_for_loop) is used.
+
+Then the algorithm will start partitioning the input String by entering a for loop. First an if statement will create the root of the heap and avoid reordering the heap as the task would be unnecessary with only one element in the heap. Then, the loop will continue until the length of the input String is reached.  The else if statement will convert and add each character to the stack and the helper method "reorder" will maintain the min heap structure.  The minimum value will be at index 1 and any values smaller than their parents will be bubbled up to their respective places.
+
+After all the characters have been converted and inserted into the min heap, the minimum value at index 1 of the heap will be returned.

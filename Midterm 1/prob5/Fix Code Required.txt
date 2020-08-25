@@ -1,0 +1,1 @@
+5) -5: Wrong result Test case: RBLRRWSOFSWRRWSOFSAD Result: 8 (RRWSOFSW) 
